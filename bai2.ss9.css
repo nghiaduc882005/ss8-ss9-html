@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.container{
+    background-image: url(https://media.istockphoto.com/id/1465217090/vi/anh/d%E1%BB%8Bch-v%E1%BB%A5-%C3%B4-t%C3%B4-s%E1%BB%ADa-ch%E1%BB%AFa-b%E1%BA%A3o-tr%C3%AC-kh%C3%A1i-ni%E1%BB%87m-th%E1%BB%A3-m%C3%A1y-ki%E1%BB%83m-tra-xe-t%E1%BA%A1i-tr%E1%BA%A1m-d%E1%BB%8Bch-v%E1%BB%A5-d%E1%BB%8Bch-v%E1%BB%A5-xe-b%E1%BA%A3o.jpg?s=1024x1024&w=is&k=20&c=CQz5G1gkZwvqxu0T2LnsjPGORph7HKxjx1G2cJbzMHQ=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.icon-2{
+    position: relative;
+    top : 60px;
+    right : 10px;
+    text-align: center;
+}
+
+i{
+    background-color: red;
+}
+
+.box {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    line-height: 24px;
+}
+.line {
+    width: 1px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+}
+#box1 {
+    top: 0;
+    right: 0;
+    line-height: 24px;
+}
+#box2 {
+    top: 36px;
+    right: 0
+}
+#box3 {
+    top: 72px;
+    right: 0px;
+}
+#line1 {
+    top: 25px;
+    right: 12px;
+}
+#line2 {
+    top: 61px;
+    right: 12px;
+}
+
+.icon-1{
+    position: absolute;
+    top : 16px;
+    left : 12px;
+    background-color: red;
+    border: 1px;
+    border-radius: 4px;
+    padding : 2px;
+}
+
+.article-text{
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+}
+
+.text-1 , .text-2{
+    padding : 4px 0;
+}

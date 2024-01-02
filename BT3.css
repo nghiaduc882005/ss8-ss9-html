@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.post{
+    height: 720px;
+    width: 540px;
+    background-image: url(https://i.pinimg.com/564x/73/21/1a/73211a9c68656ad7826a53f5dd57758d.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.post .a{
+    width: 540px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    opacity: 0.8;
+}
+
+.post h1{
+    position: absolute;
+    bottom: 70px;
+    margin-left: 10px;
+}
+
+.post .m{
+    position: absolute;
+    bottom: 30px;
+    margin-left: 10px;
+}
+
+.post .op{
+    position: absolute;
+    bottom: 50px;
+    opacity: 0.8;
+    margin-left: 10px;
+}

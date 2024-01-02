@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+.rectangle{
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.rectangle:hover{
+    transition: all 0.5s;
+    background-color: lightslategrey;
+}
+
+.rectangle h1{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-size: 40px;
+}

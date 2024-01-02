@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade-In Effect</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+
+.fade-in-element {
+    background: linear-gradient(to right, #dc6073, #d89a76);
+    padding: 30px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.fade-in-element:hover {
+    opacity: 1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="fade-in-element">
+        <p>Fade-in</p>
+    </div>
+</body>
+</html>

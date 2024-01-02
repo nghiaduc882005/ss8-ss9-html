@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.rectangle{
+    width: 300px;
+    height: 200px;
+    background-color: lightslategray;
+    position: relative;
+}
+
+.rectangle p{
+    position: absolute;
+    font-size: 40px;
+    top: 70px;
+    left: 90px;
+}
+
+.rectangle:hover p{
+    transition: all 0.5s;
+    top: 55px;
+    left: 65px;
+}
+
+.rectangle:hover{
+    transition: all 0.5s;
+    height: 150px;
+    width: 250px;
+}
